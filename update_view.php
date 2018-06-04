@@ -52,10 +52,6 @@ $result = $stmt->fetch(PDO::FETCH_ASSOC);
               <p><?=$result["image"]?></p>
             </div>
             <div class="form-group">
-              <label class="control-label">おすすめ曲</label>
-              <p><?=$result["sound"]?></p>
-            </div>
-            <div class="form-group">
               <label class="control-label">一言コメント</label>
               <input class="form-control" type="text" name="comment" value="<?=$result["comment"]?>">
               <input type="hidden" name="id" value="<?=$result["id"]?>">

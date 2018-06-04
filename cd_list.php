@@ -19,7 +19,6 @@ if ($status = false) {
         <img class="h250" src="./image/' . $result["image"] . '" alt="">
         <p class="artist">アーティスト：' . $result["artist"] . '</p>
         <p class="comment">' . $result["comment"] . '</p>
-        <audio controlslist="nodownload" controls class="mp3" src="music/' . $result["sound"] . '" >
         </div>
         </div>
       </div>

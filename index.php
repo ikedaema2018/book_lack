@@ -22,7 +22,7 @@
         <div class="panel-body">
           <form method="post" action="upload.php" enctype="multipart/form-data">
             <div class="form-group">
-              <label class="control-label">タイトル</label>
+              <label class="control-label">曲名</label>
               <input class="form-control" type="text" name="title">
             </div>
             <div class="form-group">
@@ -32,10 +32,6 @@
             <div class="form-group">
               <label class="control-label">CDパッケージ画像</label>
               <input type="file" name="upload_image">
-            </div>
-            <div class="form-group">
-              <label class="control-label">おすすめ曲</label>
-              <input type="file" name="upload_music">
             </div>
             <div class="form-group">
               <label class="control-label">一言コメント</label>
